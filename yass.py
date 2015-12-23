@@ -11,7 +11,8 @@ portList = []
 def displayHelp ():
    print ("yass - yet another SIP scanner v0.1 \n"
           "by Hakan Tolgay - www.hakantolgay.com\n"
-          "                  hakan@hakantolgay.com\n\n"
+          "                  hakan@hakantolgay.com\n"
+          "                  https://github.com/htlgy/yass\n\n"
 
           "Usage: ./yass -l <Local_IP_address> -r <remote_IP_address> -p <remote_port> [options]\n"
           "       ./yass -l <Local_IP_address> -r <remote_IP_address/subnet_prefix> -p <remote_port> [options]\n"
